@@ -28,7 +28,7 @@ public class cFrameStack {
 		head = null;
 		tail = null;
 		size = 0;
-		numberOfFrames = numFrames-1;
+	  numberOfFrames = numFrames-1;
 	}
 
   public boolean isEmpty() { return head == null; }
