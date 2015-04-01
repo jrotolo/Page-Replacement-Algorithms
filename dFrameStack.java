@@ -167,7 +167,7 @@ public class dFrameStack {
 		System.out.print(head.getData()+"  ");
 		temp = head.next;
 		while (temp.next != null) {
-			System.out.print(temp.getData()+"  ");
+		  System.out.print(temp.getData()+"  ");
 			temp = temp.next;
 		}
 		System.out.print(temp.getData()+"\n");
